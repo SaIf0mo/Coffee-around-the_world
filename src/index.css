@@ -1,0 +1,16 @@
+@import "tailwindCss";
+
+@layer {
+  .img-shadow {
+    filter: drop-shadow(40px 50px 25px #0f1115);
+  }
+  .img-shadow {
+    filter: drop-shadow(10px 30px 15px #3030307a);
+  }
+  .inputStyle {
+    @apply px-4 py-2 border-[1px] border-gray-400 rounded-md;
+  }
+  .btn-primary {
+    @apply bg-amber-400 text-white mt-4 w-full capitalize px-4 py-2 rounded-md hover:bg-amber-600 cursor-pointer duration-200;
+  }
+}
